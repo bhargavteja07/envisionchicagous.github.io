@@ -12,7 +12,7 @@ go.addEventListener('click', function() {
   clearOverlays();
 
   var script = document.createElement('script');
-  script.src = 'Data/query_10.js';
+  script.src = 'data/query_10.js';
   document.getElementsByTagName('head')[0].appendChild(script);
 }, false);
 

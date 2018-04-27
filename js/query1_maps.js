@@ -13,7 +13,7 @@ go.addEventListener('click', function() {
 
   // This example uses a local copy of the GeoJSON stored at
   // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
-  script.src = 'Data/query1_latlang.js';
+  script.src = 'data/query1_latlang.js';
   document.getElementsByTagName('head')[0].appendChild(script);
 }, false);
 
