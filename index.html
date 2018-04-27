@@ -40,8 +40,10 @@
 
 				<!-- Two for graph queries -->
 					
-				<section id="two" class="wrapper style2" style='height:600px'>
-						<div style='float:left;width:25%;padding-left:10px;padding-top:75px'>	
+				<section id="two" class="wrapper style2" style='height:600px;background:#31333A'>
+						<div style='float:left;width:25%;padding-left:0Px;padding-top:0px;color:white'>
+								<h3 style='color:white'>graph to express the crimes in numbers with comparison to age groups in a census block</h3>																
+								<p> This graph plots a relationship between the crime count and the age group. To make a in-depth understanding we can use the following filters to analyze the trends for each kind of crime</p>	
 							<div class>
 							  <input name= "crimeBx" id="checkbox1" type="checkbox" onclick=makeplot()>
 							  <label for="checkbox1"><font color="white">Robbery</font>
@@ -69,15 +71,12 @@
 		
 			</section>
 
-			<section id="three_heading" class="wrapper">
-					<div>
-						<br>
-						<br><br><br>
-					</div>
-				</section>
+			
 
-					<section id="three" class="wrapper style2" style='height:600px'>
-							<div style='float:left;width:25%;padding-left:10px;padding-top:75px'>	
+					<section id="three" class="wrapper style2" style='height:700px;background:black'>
+							<div style='float:left;width:25%;padding-left:0Px;padding-top:0px;color:white'>
+									<h3 style='color:white'>How does the rating influence on the food inspection?</h3>																
+											<p> This graph tries to show a relation between the rating and inspection result and tries to answer the question stated. The graph initially shows only the inspections which passed. Upon selecting the filters from the options below we can see the inspections that failed and conditionally passed. They can be compared and contrasted upon hovering on the graph.</p>	
 								<div class>
 								  <input name= "inspectionBx" id="inspcheckbox1" type="checkbox" onclick=makeplot1()>
 								  <label for="inspcheckbox1"><font color="white">Failed</font>
@@ -97,30 +96,25 @@
 									<script src="reviewInspection.js"></script>
 								</div>
 								
-				</section>
-
-				<section id="three_heading" class="wrapper">
-						<div>
-							<br>
-							<br><br><br>
-						</div>
-					</section>
+				</section>			
 	
-					<section id="four" class="wrapper style2" style='height:600px'>							
-								<div id = "revRatPlot"style='float:right;width:75%'>	
+					<section id="four" class="wrapper style2" style='height:600px;background:#31333A'>
+							<div style='float:left;width:25%;padding-left:0Px;padding-top:0px;color:white'>
+									
+							<h3 style='color:white'>The relation between sentiments and ratings.
+								</h3>																
+							<p> Yelp reviews are related to the rating in the way depicted by the graph. The graph marks a bar graph for sentiments and reviews on either of the axis.
+								</p>	
+							</div>
+						<div id = "revRatPlot"style='float:right;width:75%'>	
 										<script src="revRating.js"></script>
 									</div>
 									
 					</section>
 
-					<section id="three_heading" class="wrapper">
-							<div>
-								<br>
-								<br><br><br>
-							</div>
-						</section>
+					
 		
-						<section id="five" class="wrapper style2" style='height:600px'>							
+						<section id="five" class="wrapper style2" style='height:600px;background:black'>
 								<div id = "bizPlot"style='float:right;width:75%'>	
 										<script src="bizViability.js"></script>
 									</div>
@@ -136,11 +130,11 @@
 							<h3 style='padding-left:200px;background-color:black;color:white'>9) How does liquor license influence crime incidents in the neighborhood?</h3>
 						</div>
 					</section>
-					<section id="three" class="wrapper">
-						<!--- map--->
-						<div class="spotlight" style='height:400px'>
+
+					<section id="three" class="wrapper" style='height:600px;background:#31333A'>
+						<div class="spotlight" style='height:600px'>
 							<embed type="text/html" src="maps\query9.html" style='height:400px'>
-							<div class="inner"style='height:400px'>
+							<div class="inner"style='height:500px'>
 								<h3>Census heat map with markers</h3>
 								<p>The following map represents a heat map with markers, where each marker indicates number of businesses with liquor licenses, number of crimes, number of arrests in a census block</p>
 								<p>zoom in the map to see the markers and zoom out to see the heat map</p>
@@ -148,7 +142,7 @@
 							</div>
 						</div>	
 						<div class="spotlight alt">
-							<div  class="inner" style='height:400px'>
+							<div  class="inner" style='height:600px'>
 								<h3>Map 2</h3>
 								<p>Map 2 Description</p>
 							</div>
@@ -159,7 +153,6 @@
 				</div>
 			</section>
 
-		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
 					<ul class="icons">

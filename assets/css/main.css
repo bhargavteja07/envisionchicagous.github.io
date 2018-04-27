@@ -3524,7 +3524,7 @@ html, body {
 		}
 
 	.wrapper.style2 {
-		background: #1e1f23;
+		background: #31333A;
 		padding: 6rem;
 	}
 
@@ -3548,7 +3548,7 @@ html, body {
 		@media screen and (max-width: 1280px) {
 
 			.wrapper.style2 {
-				padding: 4rem;
+				padding: 2rem;
 			}
 
 		}
