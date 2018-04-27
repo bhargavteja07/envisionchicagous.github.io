@@ -1,7 +1,7 @@
 function makeplot() {
   console.log("hello")
   
-  Plotly.d3.csv("/Users/bhargavarisetty/Downloads/Envision-Chicago-WebApplication-master/data/query_3_result.csv", function(data){ processDataCrimesAge(data) } );
+  Plotly.d3.csv("data/query_3_result.csv", function(data){ processDataCrimesAge(data) } );
 
 };
 

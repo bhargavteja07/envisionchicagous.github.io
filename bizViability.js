@@ -1,7 +1,7 @@
 function makeplot3() {
   console.log("hello")
   
-  Plotly.d3.csv("/Users/bhargavarisetty/Downloads/Envision-Chicago-WebApplication-master/data/query_8_result.csv", function(data){ processDataBiz(data) } );
+  Plotly.d3.csv("data/query_8_result.csv", function(data){ processDataBiz(data) } );
 
 };
 
