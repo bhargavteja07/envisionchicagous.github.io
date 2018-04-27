@@ -85,7 +85,7 @@
 								<div class>
 									<input name= "inspectionBx" id="inspcheckbox2" type="checkbox" onclick=makeplot1()>
 									<label for="inspcheckbox2"><font color="white">
-											Conditional Failed
+											Conditional Passed
 									</font>
 												</label>
 								</div>
@@ -115,40 +115,93 @@
 					
 		
 						<section id="five" class="wrapper style2" style='height:600px;background:black'>
+								<div style='float:left;width:25%;padding-left:0Px;padding-top:0px;color:white'>										
+								<h3 style='color:white'>graph to express the crimes in numbers with comparison to age groups in a census block</h3>																
+								<p> This graph plots a relationship between the crime count and the age group. To make a in-depth understanding we can use the following filters to analyze the trends for each kind of crime</p>	
+								</div>
 								<div id = "bizPlot"style='float:right;width:75%'>	
 										<script src="bizViability.js"></script>
 									</div>
 									
 					</section>
+
+					<section id="five" class="wrapper style2" style='height:600px;background:#31333A'>
+							<div style='float:left;width:25%;padding-left:0Px;padding-top:0px;color:white'>										
+									<h3 style='color:white'>graph to express the crimes in numbers with comparison to age groups in a census block</h3>																
+									<p> This graph plots a relationship between the crime count and the age group. To make a in-depth understanding we can use the following filters to analyze the trends for each kind of crime</p>	
+									</div>
+							<div id = "q10Plot"style='float:right;width:75%'>	
+									<script src="query_10_plot.js"></script>
+								</div>
+								
+				</section>
 	
 					
 
 					
 				<!-- Three for map queries-->
+								<!-- 
+
 					<section id="three_heading" class="wrapper">
 						<div>
 							<h3 style='padding-left:200px;background-color:black;color:white'>9) How does liquor license influence crime incidents in the neighborhood?</h3>
 						</div>
 					</section>
+					Three for map queries-->
 
-					<section id="three" class="wrapper" style='height:600px;background:#31333A'>
-						<div class="spotlight" style='height:600px'>
-							<embed type="text/html" src="maps\query9.html" style='height:400px'>
-							<div class="inner"style='height:500px'>
-								<h3>Census heat map with markers</h3>
-								<p>The following map represents a heat map with markers, where each marker indicates number of businesses with liquor licenses, number of crimes, number of arrests in a census block</p>
-								<p>zoom in the map to see the markers and zoom out to see the heat map</p>
-								<p>Heat map is according to the frequency of the crimes, i.e more the crimes more the darkness</p>
-							</div>
+					<section id="mone" class="wrapper" style='height:600px;background:black'>
+							<div class="spotlight" style='height:600px'>
+							<embed type="text/html" src="query1.html" style='height:400px'>
+								<div class="inner"style='height:500px;color:white'>
+										<h3 style='color:white'>Census heat map with markers</h3>
+										<p>The following map represents a heat map with markers, where each marker indicates number of businesses with liquor licenses, number of crimes, number of arrests in a census block</p>
+										<p>zoom in the map to see the markers and zoom out to see the heat map</p>
+										<p>Heat map is according to the frequency of the crimes, i.e more the crimes more the darkness</p>
+									</div>
 						</div>	
 						<div class="spotlight alt">
 							<div  class="inner" style='height:600px'>
-								<h3>Map 2</h3>
-								<p>Map 2 Description</p>
+								
 							</div>
 							<embed type="text/html" src="maps\testing_heatmap.html" style='height:400px'>
 						</div>
 					</section>
+
+					<section id="mtwo" class="wrapper" style='height:600px;background:#31333A'>
+							<div class="spotlight" style='height:600px'>
+								<embed type="text/html" src="query9.html" style='height:400px'>
+								<div class="inner"style='height:500px;color:white'>
+									<h3 style='color:white'>Census heat map with markers</h3>
+									<p>The following map represents a heat map with markers, where each marker indicates number of businesses with liquor licenses, number of crimes, number of arrests in a census block</p>
+									<p>zoom in the map to see the markers and zoom out to see the heat map</p>
+									<p>Heat map is according to the frequency of the crimes, i.e more the crimes more the darkness</p>
+								</div>
+							</div>	
+							<div class="spotlight alt">
+								<div  class="inner" style='height:600px'>
+									
+								</div>
+								<embed type="text/html" src="maps\testing_heatmap.html" style='height:400px'>
+							</div>
+						</section>
+
+						<section id="mthree" class="wrapper" style='height:600px;background:black'>
+								<div class="spotlight" style='height:600px'>
+									<embed type="text/html" src="query10.html" style='height:400px'>
+										<div class="inner"style='height:500px;color:white'>
+												<h3 style='color:white'>Census heat map with markers</h3>
+												<p>The following map represents a heat map with markers, where each marker indicates number of businesses with liquor licenses, number of crimes, number of arrests in a census block</p>
+												<p>zoom in the map to see the markers and zoom out to see the heat map</p>
+												<p>Heat map is according to the frequency of the crimes, i.e more the crimes more the darkness</p>
+											</div>
+								</div>	
+								<div class="spotlight alt">
+									<div  class="inner" style='height:600px'>
+										
+									</div>
+									<embed type="text/html" src="maps\testing_heatmap.html" style='height:400px'>
+								</div>
+							</section>
 
 				</div>
 			</section>
@@ -156,7 +209,8 @@
 			<footer id="footer">
 				<div class="container">
 					<ul class="icons">
-						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							<!-- Scripts 
+	<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li> >
 					</ul>
 				</div>
 			</footer>
