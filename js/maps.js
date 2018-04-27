@@ -15,7 +15,7 @@ function initMap() {
 
   // This example uses a local copy of the GeoJSON stored at
   // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
-  script.src = 'Data/query_9.js';
+  script.src = 'https://envisionchicagous.github.io/Data/query_9.js';
   document.getElementsByTagName('head')[0].appendChild(script);
 
   google.maps.event.addListener(map, 'zoom_changed', function() {
