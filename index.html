@@ -5,19 +5,19 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<head>
-		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">			
-		<title>Envision Chicago US</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.js"></script>	
-		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-		<script src="~/Scripts/bootstrap.min.js"></script>
-		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-		<script src="https://d3js.org/d3.v4.min.js"></script> 
-		
-	</head>
+		<head>
+				<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">			
+				<title>Envision Chicago US</title>
+				<meta charset="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<link rel="stylesheet" href="assets/css/main.css" />
+				<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.js"></script>	
+				<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+				<script src="~/Scripts/bootstrap.min.js"></script>
+				<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+				<script src="https://d3js.org/d3.v4.min.js"></script> 
+				
+			</head>
 	<body>
 
 		<!-- Header -->
@@ -151,7 +151,24 @@
 					</section>
 					Three for map queries-->
 
-					
+					<section id="mone" class="wrapper" style='height:600px;background:black'>
+							<div class="spotlight" style='height:600px'>
+							<embed type="text/html" src="query1.html" style='height:400px'>
+								<div class="inner"style='height:500px;color:white'>
+										<h3 style='color:white'>Crime data of Chicago since 2001
+											</h3>
+										<p>The following map displays all the places where crime took place since 2001. The map can be filtered based on crime type and year. Additionally markers can be clicked to get additional information like arrests, crime, etc.
+											</p>
+										
+									</div>
+						</div>	
+						<div class="spotlight alt">
+							<div  class="inner" style='height:600px'>
+								
+							</div>
+							<embed type="text/html" src="maps\testing_heatmap.html" style='height:400px'>
+						</div>
+					</section>
 
 					<section id="mtwo" class="wrapper" style='height:600px;background:#31333A'>
 							<div class="spotlight" style='height:600px'>
@@ -171,7 +188,23 @@
 							</div>
 						</section>
 
-						
+						<section id="mthree" class="wrapper" style='height:600px;background:black'>
+								<div class="spotlight" style='height:600px'>
+									<embed type="text/html" src="query10.html" style='height:400px'>
+										<div class="inner"style='height:500px;color:white'>
+												<h3 style='color:white'>Heatmap of Mean Temperature since 2010
+													</h3>
+												<p>The following map represents a heatmap on Chicago's weather and crime data integration. Based on selection of year, month and crime type the map is populated with mean temperatures of all the places where crime was recorded.</p>
+												
+											</div>
+								</div>	
+								<div class="spotlight alt">
+									<div  class="inner" style='height:600px'>
+										
+									</div>
+									<embed type="text/html" src="maps\testing_heatmap.html" style='height:400px'>
+								</div>
+							</section>
 
 				</div>
 			</section>
