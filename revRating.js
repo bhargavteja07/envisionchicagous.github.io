@@ -41,7 +41,7 @@ function processDataSentiments(allRows) {
       }
     },
     yaxis: {
-      title: 'Revie Rating',
+      title: 'Review Rating',
       titlefont: {
         family: 'Courier New, monospace',
         size: 18,
